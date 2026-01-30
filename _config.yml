@@ -13,20 +13,20 @@ permalink: pretty
 
 # Collections
 collections:
-  learnings:
-    output: true
-    permalink: /stuff-i-learned/:title/
+  # learnings:
+  #   output: true
+  #   permalink: /stuff-i-learned/:title/
   publications:
     output: true
     permalink: /publications/:title/
 
 # Defaults
 defaults:
-  - scope:
-      path: ""
-      type: "learnings"
-    values:
-      layout: "learning"
+  # - scope:
+  #     path: ""
+  #     type: "learnings"
+  #   values:
+  #     layout: "learning"
   - scope:
       path: ""
       type: "publications"
