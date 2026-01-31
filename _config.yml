@@ -4,7 +4,7 @@ description: "Personal website showcasing bio, CV, current work, learnings, publ
 author: "Carole Ibrahim"
 email: "carole-youssef@hotmail.com"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://caroleyoussef.github.io" # the base hostname & protocol for your site
+url: "https://carole-ibrahim.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -19,6 +19,9 @@ collections:
   publications:
     output: true
     permalink: /publications/:title/
+
+plugins:
+  - jekyll-sitemap
 
 # Defaults
 defaults:

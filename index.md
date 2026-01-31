@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Home
-description: Welcome to Carole's personal website.
+title: Carole Ibrahim – AI Engineer & Data Scientist
+description: Carole Ibrahim personal website. AI Engineer & Data Scientist specialized in machine learning, recommendation systems, and production ML.
 ---
 
 <section id="bio" class="section">
