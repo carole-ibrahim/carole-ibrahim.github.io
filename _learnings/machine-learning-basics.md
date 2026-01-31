@@ -9,9 +9,6 @@ excerpt: "I recently dove into the world of machine learning and discovered some
 
 # Understanding Machine Learning Basics
 
-*Posted on December 15, 2024*
-
-I recently dove into the world of machine learning and discovered some fascinating concepts about how algorithms can learn patterns from data. This journey has completely changed my perspective on what's possible with technology.
 
 ## What I Learned
 
