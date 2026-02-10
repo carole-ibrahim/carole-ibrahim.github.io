@@ -16,7 +16,6 @@ description: Carole Ibrahim personal website. AI Engineer & Data Scientist speci
             </div>
             <div class="bio-text">
                 <p>Hello! I'm Carole. I am a data scientist based in Paris. I like building new things that work, discovering new topics and talking to people. I believe in continuous learning and sharing knowledge with others. I created this personal blog to share more about my work, stuff I learn in my job and maybe some thoughts and ideas I have on various topics.</p>
-               
             </div>
         </div>
     </div>
@@ -71,7 +70,13 @@ description: Carole Ibrahim personal website. AI Engineer & Data Scientist speci
             <i class="fas fa-file-alt"></i>
             Curriculum Vitae
         </h2>
+
         <div class="cv-content">
+            <div class="cv-download">
+                <a href="/assets/files/cv.pdf" class="btn btn-primary" target="_blank">
+                    <i class="fas fa-file-pdf"></i> Download my CV (pdf)
+                </a>
+            </div>
             <div class="cv-section">
                 <h3>Education</h3>
                 <div class="cv-item">
@@ -95,7 +100,7 @@ description: Carole Ibrahim personal website. AI Engineer & Data Scientist speci
                     <div class="cv-details">
                         <h4>CPGE MP</h4>
                         <p>Lycée Fénelon</p>
-                        <p>Intensive preparatory classes for French Grandes Écoles. Speciality maths and physics.</p>
+                        <p>Intensive preparatory classes for French Grandes Écoles. Specialization in Mathematics and Physics.</p>
                     </div>
                 </div>
             </div>
@@ -112,10 +117,10 @@ description: Carole Ibrahim personal website. AI Engineer & Data Scientist speci
                         <p>The app has a wide range of
                         cultural offers (books, cinema,
                         concerts, theatre, music,
-                        instruments, etc)</p>
+                        instruments, etc).</p>
                         <p>We create:</p>
                             <ul>
-                                <li>Personalized and geolocalized playlist</li>
+                                <li>Personalized and geolocalized playlists</li>
                                 <li>Similar offers playlists</li>
                             </ul>
                     </div>
@@ -125,8 +130,8 @@ description: Carole Ibrahim personal website. AI Engineer & Data Scientist speci
                     <div class="cv-details">
                         <h4>Data Scientist</h4>
                         <p>Lusis</p>
-                        <p>Lusis is the French leader of payment systems providing software for almost all french banks and internatnal banks.</p>
-                        <p>I worked on creatng ML models to predict the Forex Market and to put these models into production.</p>
+                        <p>Lusis is the French leader of payment systems providing software for almost all French banks and international banks.</p>
+                        <p>I worked on creating ML models to predict the Forex Market and deploying these models to production.</p>
                     </div>
                 </div>
             </div>

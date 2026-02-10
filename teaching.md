@@ -1,6 +1,6 @@
 ---
 layout: default
-title: teaching
+title: Teaching
 description: Lectures
 ---
 
@@ -8,7 +8,7 @@ description: Lectures
     <div class="container">
         <h1 class="page-title">
             <i class="fas fa-book-open"></i>
-            teaching
+            Teaching
         </h1>
         <p class="page-subtitle">Lectures</p>
     </div>
@@ -20,13 +20,13 @@ description: Lectures
             <div class="teaching-list">
                 <article class="teaching-item" data-category="lecture" data-year="2026">
                     <div class="teaching-header">
-                        <span class="teaching-type conference">Lecture</span>
-                        <span class="teaching-year"></span>
+                        <span class="teaching-type lecture">Lecture</span>
+                        <span class="teaching-year">2026</span>
                     </div>
-                    <h3>How to put a Machine Learning model in production ?</h3>
+                    <h3>How to put a Machine Learning model in production?</h3>
                     <p class="teaching-authors">Carole Ibrahim</p>
                     <p class="establishment">Université Paris Saclay, master TRIED</p>
-                    <p class="teaching-abstract">I teach a course in TRIED master at the Unversité Paris Saclay. My course aims to teach masters students how to deploy and serve machine learning models in industry-like environment. The coursework (presentation and tutorials) are open source on this <a href="https://github.com/carole-ibrahim/tried-ce-2026"> GitHub repo</a>.</p>
+                    <p class="teaching-abstract">I teach a course in the TRIED master's program at Université Paris Saclay. My course aims to teach master's students how to deploy and serve machine learning models in an industry-like environment. The coursework (presentation and tutorials) is open source on this <a href="https://github.com/carole-ibrahim/tried-ce-2026">GitHub repo</a>.</p>
                     <div class="teaching-tags">
                         <span class="tag">MLOps</span>
                         <span class="tag">Model Deployment</span>

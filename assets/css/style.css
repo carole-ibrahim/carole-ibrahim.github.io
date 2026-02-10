@@ -12,6 +12,7 @@
     --sand: #F5DEB3;
     --cream: #FDF5E6;
     --dark-brown: #1c85f6;
+    --accent-blue: #1c85f6;
     --accent-red: #CD5C5C;
     --text-dark: #2D3748;
     --text-light: #4A5568;
@@ -229,6 +230,11 @@ main {
     margin: 0 auto;
 }
 
+.cv-download {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .cv-section {
     margin-bottom: 2rem;
 }
@@ -409,14 +415,16 @@ main {
     margin-top: 1.5rem;
 }
 
-/* Publication items */
-.publications-content {
+/* Publication and Teaching items */
+.publications-content,
+.teaching-content {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.publication-item {
+.publication-item,
+.teaching-item {
     background: var(--white);
     padding: 2rem;
     border-radius: 10px;
@@ -424,14 +432,16 @@ main {
     margin-bottom: 2rem;
 }
 
-.publication-header {
+.publication-header,
+.teaching-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
 }
 
-.publication-type {
+.publication-type,
+.teaching-type {
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.9rem;
@@ -443,32 +453,49 @@ main {
     color: var(--white);
 }
 
-.publication-year {
+.publication-type.conference,
+.teaching-type.conference, 
+.teaching-type.lecture {
+    background: var(--secondary-gold);
+    color: var(--white);
+}
+
+.publication-year,
+.teaching-year {
     color: var(--text-light);
     font-weight: 600;
 }
 
-.publication-authors {
+.publication-authors,
+.teaching-authors {
     color: var(--text-light);
     font-style: italic;
     margin-bottom: 0.5rem;
 }
 
-.publication-journal {
+.publication-journal,
+.establishment {
     color: var(--accent-blue);
     font-weight: 600;
     margin-bottom: 1rem;
 }
 
-.publication-abstract {
+.publication-abstract,
+.teaching-abstract {
     margin-bottom: 1.5rem;
     line-height: 1.7;
 }
 
-.publication-links {
+.publication-links,
+.teaching-links {
     display: flex;
     gap: 1rem;
     flex-wrap:wrap;
+}
+
+.publication-tags,
+.teaching-tags {
+    margin: 1rem 0;
 }
 
 /* Buttons */
